@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet" />
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Information</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button onclick="getWeather()">Get Weather</button>
+        <button onclick="getNationalDish()">Show National Dish</button>
+        <button onclick="getAdvice()">Get Advise</button>
+        <div id="weatherInfo"></div>
+        <div id="nationalDishInfo"></div>
+        <div id="placeHistoryInfo"></div>
+        <div id="placeInfo"></div>
+        <div id="map" style="height: 500px;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
